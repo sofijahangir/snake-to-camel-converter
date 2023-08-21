@@ -1,0 +1,21 @@
+{
+  "name": "snake-to-camel-converter",
+  "version": "1.0.0",
+  "description": "A simple npm package for converting object keys from snake_case to camelCase.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sofijahangir/snake-to-camel-converter"
+  },
+  "keywords": ["snake_case", "camelCase", "converter"],
+  "author": "Jahangir Ahmad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sofijahangir/snake-to-camel-converter/issues"
+  },
+  "homepage": "https://github.com/sofijahangir/snake-to-camel-converter#readme",
+  "dependencies": {}
+}
