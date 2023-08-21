@@ -1,6 +1,6 @@
 {
   "name": "snake-to-camel-converter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple npm package for converting object keys from snake_case to camelCase.",
   "main": "index.js",
   "scripts": {
