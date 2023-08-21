@@ -13,4 +13,10 @@ function convertToCamelCase(obj) {
   }
 }
 
-module.exports = convertToCamelCase;
+module.exports = function (input) {
+  if (Array.isArray(input)) {
+    return input.map(item => convertToCamelCase(item));
+  } else {
+    return convertToCamelCase(input);
+  }
+};
